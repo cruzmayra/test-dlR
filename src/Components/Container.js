@@ -10,11 +10,7 @@ export default class Contenedor extends React.Component {
   render() {
     return (
       <Container>
-        <Row>
-          <Col xs="12">
-            <Show />
-          </Col>
-        </Row>
+        <Show />
       </Container>
     )
   }
