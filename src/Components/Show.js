@@ -25,7 +25,7 @@ export default class TvShow extends React.Component {
     return(
       <Row>
         {this.state.shows.map((show, i) => {
-          let channel = show.network ? show.network.id : 'Sin canal'
+          let channel = show.network ? show.network.name : 'Sin canal'
           let site = show.officialSite ? <span><a href={show.officialSite}>Sitio oficial</a></span> : <span>Sin sitio oficial :C</span>
 
           return (
@@ -37,7 +37,7 @@ export default class TvShow extends React.Component {
                   <p>{show.premiered}</p>
                 </CardTitle>
                 <CardText>
-                  <span>Canal {channel}</span>
+                  <span>{channel}</span>
                   {site}
                 </CardText>
               </div>
