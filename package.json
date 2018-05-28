@@ -2,7 +2,7 @@
   "name": "test-dlr",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://cruzmayra.github.io/test-dlR",  
+  "homepage": "http://prueba-dlr.mayracruz.space",  
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
