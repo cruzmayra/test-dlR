@@ -9,8 +9,7 @@ class App extends Component {
     return (
       <div>
         <h1>TV Shows</h1>
-        <Contenedor
-        />        
+        <Contenedor tabIndex="-1"/>        
       </div>
       )
   }
